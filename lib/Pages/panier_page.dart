@@ -21,7 +21,6 @@ class _PanierPageState extends State<PanierPage> {
       price: 79.99,
       image: "assets/coat.png",
     ),
-    // Add more products here
   ];
 
   @override
@@ -88,7 +87,7 @@ class _PanierPageState extends State<PanierPage> {
             // Bouton "Valider ma commande"
             ElevatedButton(
               onPressed: () {
-                // Mettez ici le code pour valider la commande
+                //  ici le code pour valider la commande
               },
               child: Text("Valider ma commande"),
             ),
